@@ -27,7 +27,7 @@
 { %before
 	\begin{tikzpicture}[background rectangle/.style={fill=olive!45} remember picture,overlay]
 	\node[shape=rectangle, fill=red, minimum height=10cm, minimum width=1.0\paperwidth] at (7.61, 5.5cm) {};
-	\node[shape=rectangle, fill=white, minimum height=4cm, minimum width=4cm] at (-1in, 4cm) {
+	\node[shape=rectangle, fill=white, minimum height=4cm, minimum width=4cm, absolute] at (-1in, 4cm) {
 		\rotatebox[origin=c]{90}{%
 			\normalfont\color{black}\Large%
 			\textls[180]{\textsc{\chaptertitlename}}%
