@@ -27,7 +27,7 @@
 { %before
 	\begin{tikzpicture}[background rectangle/.style={fill=olive!45} remember picture,overlay]
 	\node[shape=rectangle, fill=gray!20, minimum height=12cm, minimum width=1.0\paperwidth] at (7.61, 5.5cm) {};
-	\node[shape=rectangle, fill=white, minimum height=4cm, minimum width=4cm, absolute]
+	\node[shape=rectangle, minimum height=4cm, minimum width=4cm, absolute]
 	 at (1.54, 3.54) {
 		\rotatebox[origin=c]{90}{%
 			\normalfont\color{black}\Large%
@@ -39,7 +39,7 @@
 					\centering\color{white}{\Huge \thechapter}}%
 		}}
 	};
-	\node[shape=rectangle, fill=white, minimum height=4cm, minimum width=11cm, text width=11cm, align=right, font=\huge]
+	\node[shape=rectangle, minimum height=4cm, minimum width=11cm, text width=11cm, align=right, font=\huge]
 	at (10, 3.54) {
 		 \textbf{#1}
 	};
