@@ -26,7 +26,7 @@
 {}{0cm} %sep
 { %before
 	\begin{tikzpicture}[background rectangle/.style={fill=olive!45} remember picture,overlay]
-	\node[minimum height=5cm, minimum width=\paperwidth, anchor=north] at (current page.north) {I am ... #1};;
+	\node[minimum height=5cm, minimum width=\paperwidth, anchor=north] at (current page.north) {I am ... \chaptername};;
 	\end{tikzpicture}
 }
 [\enlargethispage{-\parskip}\vspace{1cm}]
