@@ -12,30 +12,24 @@
 \definecolor{myblue}{RGB}{0,82,155}
 
 %	For Chapters
-\titleformat{\chapter}[display]
-{\LARGE\raggedright}
-{}{0cm}
-{
+%\titleformat{command}
+%[shape]
+%{format}
+%{label}
+%{sep}
+%{before-code}
+%[after-code]
+
+\titleformat{\chapter}
+[display] %shape
+{\LARGE\raggedright} %format
+{}{0cm} %sep
+{ %before
 	\begin{tikzpicture}[remember picture,overlay]
-	\fill[gray!20]
-	(current page.north west) rectangle ([yshift=-7cm]current page.north east);
-	\node[inner sep=0pt,anchor=west] (label) at 
-	([yshift=-4cm]current page text area.west|-current page.north)
-	{\rotatebox[origin=c]{90}{%
-			\normalfont\color{black}\Large%
-			\textls[180]{\textsc{\chaptertitlename}}%
-		}\hspace{10pt}%
-		{\setlength\fboxsep{0pt}%
-			\colorbox{myblue}{\parbox[c][3cm][c]{3cm}{%
-					\centering\color{white}\fontsize{70}{80}\selectfont \thechapter}%
-		}}%
-	};
-	\node[right of=label, minimum height=3cm, text width=.5\paperwidth] at ([yshift=-3.25cm, xshift=.464\paperwidth]current page text area.west|-current page.north){\begin{flushright}\Huge #1\end{flushright}};;
-	\node[inner sep=0pt,anchor=north west] at ([yshift=-7cm]current page.north west)
-	{\color{gray!20}\rule{\paperwidth}{0pt}};
+	
 	\end{tikzpicture}
 }
-[\enlargethispage{-\parskip}\vspace{1cm}]
+[\vspace{1cm}]
 
 \begin{document}
 
