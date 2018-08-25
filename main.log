@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  25 AUG 2018 21:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  25 AUG 2018 21:20
 entering extended mode
 **./main.tex
 (main.tex
@@ -449,7 +449,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {C:/Users/Sky/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
-] (main.toc)
+]
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+ (main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -461,6 +470,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 (TeX_files/chapter01.tex
 Chapter 1.
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
 ) [1
 
 
@@ -473,24 +497,40 @@ Chapter 1.
 
 ]
 Chapter 2.
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
 ) [3] [4
 
 
 ] (main.aux (TeX_files/chapter01.aux) (TeX_files/chapter02.aux)) ) 
 Here is how much of TeX's memory you used:
- 13263 strings out of 492969
- 263528 string characters out of 3139343
- 338523 words of memory out of 3000000
- 16880 multiletter control sequences out of 15000+200000
+ 13254 strings out of 492969
+ 263363 string characters out of 3139343
+ 337303 words of memory out of 3000000
+ 16871 multiletter control sequences out of 15000+200000
  6313 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,6n,62p,446b,390s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,6n,62p,446b,284s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Latex/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Latex/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmr12.pfb><D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmr17.pfb><D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb>
 
-Output written on main.pdf (8 pages, 48754 bytes).
+Output written on main.pdf (8 pages, 48729 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
