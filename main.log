@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  25 AUG 2018 22:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  25 AUG 2018 22:15
 entering extended mode
 **./main.tex
 (main.tex
@@ -480,11 +480,11 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  13305 strings out of 492969
  264261 string characters out of 3139343
- 338655 words of memory out of 3000000
+ 338685 words of memory out of 3000000
  16929 multiletter control sequences out of 15000+200000
  10250 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,6n,67p,446b,702s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,6n,67p,446b,704s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Latex/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Latex/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmr12.pfb><D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfon
