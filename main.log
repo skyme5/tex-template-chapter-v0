@@ -344,18 +344,18 @@ File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
 )) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
 
 ("D:\Latex\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -423,7 +423,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \microtypecontext on input line 49.
+LaTeX Info: Redefining \microtypecontext on input line 50.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -439,9 +439,9 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 56.
+(Font)              <14.4> on input line 57.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 56.
+(Font)              <7> on input line 57.
  [1
 
 
@@ -451,20 +451,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <16> not available
-(Font)              size <17.28> substituted on input line 57.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <80> not available
-(Font)              size <24.88> substituted on input line 57.
+(Font)              size <17.28> substituted on input line 58.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 57.
+(Font)              <12> on input line 58.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 57.
+(Font)              <8> on input line 58.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 57.
+(Font)              <6> on input line 58.
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
  [][][][]\OT1/cmr/bx/n/24.88 Contents
  []
 
@@ -489,14 +485,14 @@ Overfull \hbox (164.91847pt too wide) has occurred while \output is active
 ] (main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 55.12pt have occurred.
+(Font)              up to 1.28pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 13314 strings out of 492969
- 264459 string characters out of 3139343
- 339128 words of memory out of 3000000
- 16937 multiletter control sequences out of 15000+200000
+ 13312 strings out of 492969
+ 264422 string characters out of 3139343
+ 339131 words of memory out of 3000000
+ 16935 multiletter control sequences out of 15000+200000
  10858 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,6n,67p,446b,728s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -505,7 +501,7 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Latex/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmr12.pfb><D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmr17.pfb><D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb>
 
-Output written on main.pdf (6 pages, 60982 bytes).
+Output written on main.pdf (6 pages, 60511 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
