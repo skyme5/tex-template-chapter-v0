@@ -1,0 +1,57 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% title format for chapter
+%
+\usepackage{tikzpagenodes}
+\usepackage[explicit]{titlesec}
+\usepackage{xcolor}
+\usepackage{microtype}
+\definecolor{myblue}{RGB}{0,82,155}
+
+%	For Chapters
+\titleformat{\chapter}[display]
+{\LARGE\raggedright}
+{}{0cm}
+{
+	\begin{tikzpicture}[remember picture,overlay]
+	\fill[gray!20]
+	(current page.north west) rectangle ([yshift=-7cm]current page.north east);
+	\node[inner sep=0pt,anchor=west] (label) at 
+	([yshift=-4cm]current page text area.west|-current page.north)
+	{\rotatebox[origin=c]{90}{%
+			\normalfont\color{black}\Large%
+			\textls[180]{\textsc{\chaptertitlename}}%
+		}\hspace{10pt}%
+		{\setlength\fboxsep{0pt}%
+			\colorbox{myblue}{\parbox[c][3cm][c]{3cm}{%
+					\centering\color{white}\fontsize{70}{80}\selectfont \thechapter}%
+		}}%
+	};
+	\node[right of=label, minimum height=3cm, text width=.5\paperwidth] at ([yshift=-3.25cm, xshift=.464\paperwidth]current page text area.west|-current page.north){\begin{flushright}\Huge #1\end{flushright}};;
+	\node[inner sep=0pt,anchor=north west] at ([yshift=-7cm]current page.north west)
+	{\color{gray!20}\rule{\paperwidth}{0pt}};
+	\end{tikzpicture}
+}
+[\enlargethispage{-\parskip}\vspace{1cm}]
+
+\begin{document}
+
+\author{TeXstudio Team}
+\title{Simple Book Example}
+\date{January 2013}
+
+\frontmatter
+\maketitle
+\tableofcontents
+
+\mainmatter
+\include{./TeX_files/chapter01}
+\include{./TeX_files/chapter02}
+
+\backmatter
+% bibliography, glossary and index would go here.
+
+\end{document}
