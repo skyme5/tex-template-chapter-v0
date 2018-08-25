@@ -454,7 +454,7 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <16> not available
 (Font)              size <17.28> substituted on input line 57.
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <70> not available
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <50> not available
 (Font)              size <24.88> substituted on input line 57.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -489,7 +489,7 @@ Overfull \hbox (164.91847pt too wide) has occurred while \output is active
 ] (main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 45.12pt have occurred.
+(Font)              up to 25.12pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
