@@ -491,18 +491,19 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  13307 strings out of 492969
  264309 string characters out of 3139343
- 339092 words of memory out of 3000000
+ 339089 words of memory out of 3000000
  16931 multiletter control sequences out of 15000+200000
  10557 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,6n,67p,446b,702s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Latex/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Latex/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr17.pfb><D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmsl12.pfb>
-Output written on main.pdf (6 pages, 52417 bytes).
+eX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Latex/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb><D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb>
+
+Output written on main.pdf (6 pages, 60981 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 44 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13325 words of extra memory for PDF output out of 14400 (max. 10000000)
 
