@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  25 AUG 2018 22:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  25 AUG 2018 22:42
 entering extended mode
 **./main.tex
 (main.tex
@@ -474,13 +474,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--58
 Chapter 1.
 [1
 
-]
-Overfull \hbox (164.91847pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 2 \OT1/cmr/m/sl/12 CHAPTER 1.  THIS IS A DEMONSTRATION TEXT FOR
- SHOWING HOW LINE BREAKING WORKS.
- []
-
-[2
+] [2
 
 ] (main.aux)
 
@@ -501,7 +495,7 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Latex/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmr12.pfb><D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmr17.pfb><D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb>
 
-Output written on main.pdf (6 pages, 60979 bytes).
+Output written on main.pdf (6 pages, 58753 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
