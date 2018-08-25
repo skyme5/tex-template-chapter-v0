@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  25 AUG 2018 21:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  25 AUG 2018 21:13
 entering extended mode
 **./main.tex
 (main.tex
@@ -341,22 +341,149 @@ Package microtype Info: Loading configuration file microtype.cfg.
 
 ("D:\Latex\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
 File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
-)) (main.aux
-(TeX_files/chapter01.aux) (TeX_files/chapter02.aux))
+))
+Runaway argument?
+{ \begin {tikzpicture}[remember picture,overlay] 
+! Paragraph ended before \ttl@format@ii was complete.
+<to be read again> 
+                   \par 
+l.29 	
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\endtikzpicture ...r@layerlist@globally \endscope 
+                                                  \let \pgf@baseline =\pgf@s...
+l.30 	\end{tikzpicture}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \endgroup.
+\endpgfpicture ...er@layerlist@globally \endgroup 
+                                                  \hss \egroup \pgf@restore@...
+l.30 	\end{tikzpicture}
+                       
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 	\end{tikzpicture}
+                       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Too many }'s.
+\endpgfpicture ...globally \endgroup \hss \egroup 
+                                                  \pgf@restore@layerlist@fro...
+l.30 	\end{tikzpicture}
+                       
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Extra \endgroup.
+\endpgfpicture ...bal \pgf@insertlayers \endgroup 
+                                                  \pgfsys@discardpath \endgr...
+l.30 	\end{tikzpicture}
+                       
+Things are pretty mixed up, but I think the worst is over.
+
+! Extra \endgroup.
+\endpgfpicture ...p \pgfsys@discardpath \endgroup 
+                                                  \pgfsys@endscope \pgfsys@e...
+l.30 	\end{tikzpicture}
+                       
+Things are pretty mixed up, but I think the worst is over.
+
+! Extra \endgroup.
+\endpgfpicture ...pe \pgfsys@endpicture \endgroup 
+                                                  \hss \egroup \pgfsys@types...
+l.30 	\end{tikzpicture}
+                       
+Things are pretty mixed up, but I think the worst is over.
+
+! Too many }'s.
+\endpgfpicture ...dpicture \endgroup \hss \egroup 
+                                                  \pgfsys@typesetpicturebox ...
+l.30 	\end{tikzpicture}
+                       
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Extra \endgroup.
+\endpgfpicture ...setpicturebox \pgfpic \endgroup 
+                                                  
+l.30 	\end{tikzpicture}
+                       
+Things are pretty mixed up, but I think the worst is over.
+
+! Extra \endgroup.
+\endtikzpicture ...lobal \endpgfpicture \endgroup 
+                                                  
+l.30 	\end{tikzpicture}
+                       
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 	\end{tikzpicture}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.30 	\end{tikzpicture}
+                       
+Things are pretty mixed up, but I think the worst is over.
+
+! Too many }'s.
+l.31 }
+      
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Infinite glue shrinkage found in a paragraph.
+l.33 
+     
+The paragraph just ended includes some glue that has
+infinite shrinkability, e.g., `\hskip 0pt minus 1fil'.
+Such glue doesn't belong there---it allows a paragraph
+of any length to fit on one line. But it's safe to proceed,
+since the offensive shrinkability has been made finite.
+
+(main.aux (TeX_files/chapter01.aux) (TeX_files/chapter02.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 ("D:\Latex\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -424,7 +551,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \microtypecontext on input line 40.
+LaTeX Info: Redefining \microtypecontext on input line 34.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -438,28 +565,20 @@ Package microtype Info: No adjustment of character kerning.
 ("D:\Latex\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 47.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 47.
- [1
+) [1{C:/Users/Sky/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-
-
-{C:/Users/Sky/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+] [2
 
 ]
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <70> not available
-(Font)              size <24.88> substituted on input line 48.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 48.
+(Font)              <14.4> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 48.
-Missing character: There is no ; in font nullfont!
-(main.toc)
+(Font)              <7> on input line 41.
+ [1
+
+] [2
+
+] (main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -468,9 +587,9 @@ Missing character: There is no ; in font nullfont!
 ]
 \openout2 = `./TeX_files/chapter01.aux'.
 
- (TeX_files/chapter01.tex
+
+(TeX_files/chapter01.tex
 Chapter 1.
-Missing character: There is no ; in font nullfont!
 ) [1
 
 
@@ -483,32 +602,26 @@ Missing character: There is no ; in font nullfont!
 
 ]
 Chapter 2.
-Missing character: There is no ; in font nullfont!
 ) [3] [4
 
 
-] (main.aux (TeX_files/chapter01.aux) (TeX_files/chapter02.aux))
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 45.12pt have occurred.
-
- ) 
+] (main.aux (TeX_files/chapter01.aux) (TeX_files/chapter02.aux)) ) 
 Here is how much of TeX's memory you used:
- 13388 strings out of 492969
- 266712 string characters out of 3139343
- 340019 words of memory out of 3000000
- 17002 multiletter control sequences out of 15000+200000
- 9042 words of font info for 38 fonts, out of 3000000 for 9000
+ 13263 strings out of 492969
+ 263508 string characters out of 3139343
+ 337198 words of memory out of 3000000
+ 16880 multiletter control sequences out of 15000+200000
+ 6919 words of font info for 31 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,6n,77p,446b,736s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Latex/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Latex/MiKTeX 2.9/fonts/ty
+ 62i,6n,56p,446b,191s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Latex/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Latex/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmr12.pfb><D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmr17.pfb><D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb>
 
-Output written on main.pdf (8 pages, 61329 bytes).
+Output written on main.pdf (10 pages, 49911 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11789 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 10765 words of extra memory for PDF output out of 12000 (max. 10000000)
 
