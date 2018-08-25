@@ -38,6 +38,17 @@
 					\centering\color{white}\fontsize{70}{80}\selectfont \thechapter}%
 		}}
 	};
+	\node[shape=rectangle, fill=white, minimum height=4cm, minimum width=4cm, absolute]
+	at (1.54, 3.54) {
+		\rotatebox[origin=c]{90}{%
+			\normalfont\color{black}\Large%
+			\textls[180]{\textsc{\chaptertitlename}}%
+		}\hspace{10pt}
+		{\setlength\fboxsep{0pt}%
+			\colorbox{myblue}{\parbox[c][3cm][c]{3cm}{%
+					\centering\color{white}\fontsize{70}{80}\selectfont \thechapter}%
+		}}
+	};
 	\end{tikzpicture}
 }
 [\enlargethispage{-\parskip}\vspace{1cm}]
