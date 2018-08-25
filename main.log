@@ -450,7 +450,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 
-! Package PGF Math Error: Unknown function `west' (in 'west north').
+! Package PGF Math Error: Unknown function `west' (in 'west page.north').
 
 See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -472,7 +472,7 @@ and deduce the truth by order and method.
 ]
 Chapter 1.
 
-! Package PGF Math Error: Unknown function `west' (in 'west north').
+! Package PGF Math Error: Unknown function `west' (in 'west page.north').
 
 See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -489,8 +489,8 @@ l.45 \chapter{This is a title}
 ] (main.aux) ) 
 Here is how much of TeX's memory you used:
  13277 strings out of 492969
- 263907 string characters out of 3139343
- 338139 words of memory out of 3000000
+ 263917 string characters out of 3139343
+ 338154 words of memory out of 3000000
  16910 multiletter control sequences out of 15000+200000
  6313 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
