@@ -22,7 +22,7 @@
 
 \titleformat{\chapter}
 [display] %shape
-{\LARGE} %format
+{} %format
 {}{0cm} %sep
 { %before
 	\begin{tikzpicture}[background rectangle/.style={fill=olive!45} remember picture,overlay]
@@ -31,7 +31,7 @@
 	 at (1.54, 3.54) {
 		\rotatebox[origin=c]{90}{%
 			\normalfont\color{black}\Large%
-			\textls[180]{\textsc{\chaptertitlename}}%
+			\textls[180]{\textsc{\normalfont \chaptertitlename}}%
 		}\hspace{10pt}
 		{\setlength\fboxsep{0pt}%
 			\colorbox{myblue}{\parbox[c][3cm][c]{3cm}{%
@@ -40,7 +40,7 @@
 	};
 	\node[shape=rectangle, fill=white, minimum height=4cm, minimum width=11cm, text width=11cm, align=right, font=\huge]
 	at (10, 3.54) {
-		 #1
+		 \textbf{#1}
 	};
 	\end{tikzpicture}
 }
