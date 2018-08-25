@@ -462,10 +462,10 @@ Chapter 1.
 
 ] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 13259 strings out of 492969
- 263455 string characters out of 3139343
+ 13261 strings out of 492969
+ 263507 string characters out of 3139343
  338049 words of memory out of 3000000
- 16892 multiletter control sequences out of 15000+200000
+ 16894 multiletter control sequences out of 15000+200000
  6313 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,6n,67p,446b,558s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -473,7 +473,7 @@ Here is how much of TeX's memory you used:
 :/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Latex/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Latex/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmsl12.pfb>
-Output written on main.pdf (6 pages, 44853 bytes).
+Output written on main.pdf (6 pages, 44855 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
